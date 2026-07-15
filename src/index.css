@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-white text-neutral-900 antialiased;
+    /* 모바일: 탭 하이라이트 제거 + 가로 스크롤 방지 + iOS 안전영역 하단 여백 */
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
