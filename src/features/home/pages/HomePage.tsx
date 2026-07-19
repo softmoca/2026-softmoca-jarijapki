@@ -27,7 +27,7 @@ export function HomePage() {
             방 구하는 중
           </span>
           <h2 className="mt-3 text-lg font-semibold text-neutral-900">
-            방 구하는 중이에요
+            방 구하는 중이에요!!!!!!!!!
           </h2>
           <p className="mt-1 text-sm leading-relaxed text-neutral-500">
             계약 직전, 무엇을 봐야 하는지 순서대로 짚어드려요.
